@@ -36,13 +36,15 @@ namespace WinFormsApp3
 
         private void button3_Click(object sender, EventArgs e)
         {
-            DateTime tevellud = new DateTime(01,02,1991);
-            DateTime tarix_bugun = new DateTime(03,11,2023);
-
-            
+            DateTime tevellud = new DateTime(1991,01,23);
+            DateTime tarix_bugun = new DateTime(2023,03,12);
 
             TimeSpan age = tarix_bugun - tevellud;
-            label6.Text = (Convert.ToInt32(tarix_bugun.Year) - Convert.ToInt32(tevellud.Year)).ToString();
+            listBox1.Items.Add(age.Days);
+            listBox1.Items.Add(age.ToString());
+            int age1=age.Days;
+            listBox1.Items.Add(age1 / 30/12);
+           label6.Text = (Convert.ToInt32(tarix_bugun.Year) - Convert.ToInt32(tevellud.Year)).ToString();
           
         }
 
