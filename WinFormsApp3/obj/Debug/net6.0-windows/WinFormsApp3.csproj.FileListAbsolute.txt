@@ -17,3 +17,5 @@ C:\Users\ASUS\source\repos\WinFormsApp3\WinFormsApp3\obj\Debug\net6.0-windows\Wi
 C:\Users\ASUS\source\repos\WinFormsApp3\WinFormsApp3\obj\Debug\net6.0-windows\ref\WinFormsApp3.dll
 C:\Users\ASUS\source\repos\WinFormsApp3\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.Form2.resources
 C:\Users\ASUS\source\repos\WinFormsApp3\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.Form3.resources
+C:\Users\ASUS\source\repos\WinFormsApp3\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.ErrorProvider.resources
+C:\Users\ASUS\source\repos\WinFormsApp3\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.ContextMenu_TabControl.resources

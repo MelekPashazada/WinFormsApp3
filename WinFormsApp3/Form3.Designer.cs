@@ -44,11 +44,11 @@
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Gence");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.imageList3 = new System.Windows.Forms.ImageList(this.components);
             this.imageList4 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
@@ -87,6 +87,15 @@
             this.treeView1.SelectedImageIndex = 0;
             this.treeView1.Size = new System.Drawing.Size(248, 279);
             this.treeView1.TabIndex = 0;
+            // 
+            // imageList2
+            // 
+            this.imageList2.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "add_img.jpg");
+            this.imageList2.Images.SetKeyName(1, "featured_img2.jpg");
+            this.imageList2.Images.SetKeyName(2, "featured_img3.jpg");
             // 
             // imageList1
             // 
@@ -133,15 +142,6 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // imageList2
-            // 
-            this.imageList2.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "add_img.jpg");
-            this.imageList2.Images.SetKeyName(1, "featured_img2.jpg");
-            this.imageList2.Images.SetKeyName(2, "featured_img3.jpg");
-            // 
             // imageList3
             // 
             this.imageList3.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
@@ -168,6 +168,7 @@
             this.Controls.Add(this.treeView1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form3_Paint);
             this.ResumeLayout(false);
 
         }

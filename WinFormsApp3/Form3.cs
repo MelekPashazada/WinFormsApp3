@@ -16,5 +16,10 @@ namespace WinFormsApp3
         {
             InitializeComponent();
         }
+
+        private void Form3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
